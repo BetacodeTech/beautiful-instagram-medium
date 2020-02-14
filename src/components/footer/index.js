@@ -22,7 +22,7 @@ const Footer = () => {
             src={authorImage} />
         </ListItemAvatar>
         <ListItemText primary={author} secondary={social} />
-        <img src="logo.png" className="logo" onClick={() => dispatch(actions.toogleDialog(true))} />
+        <img src="logo-white.png" className="logo" onClick={() => dispatch(actions.toogleDialog(true))} />
       </ListItem>
 
     </div>

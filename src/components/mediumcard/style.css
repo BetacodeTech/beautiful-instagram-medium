@@ -5,6 +5,7 @@
   max-width: 900px;
   min-width: 900px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+  background-color: white;
 }
 
 .medium-card .image {
@@ -28,7 +29,7 @@
 }
 
 .medium-card .description { 
-  font-size: 18px;
+  font-size: 24px;
   letter-spacing: -0.004em;
   line-height: 1.58;
   text-align: left;
@@ -56,14 +57,20 @@
 .medium-card .writer {
   font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
   text-align: left ;
+  font-size: 24px;
+  margin-bottom: -4px;
+  padding: 0;
 }
 
 .medium-card .writer span {
   font-weight: 600;
+  
 }
 
 .medium-card .length {
   text-align: left;
+  font-size: 20px;
+  margin: 0;
   color: rgba(0, 0, 0, 0.54);
   font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
