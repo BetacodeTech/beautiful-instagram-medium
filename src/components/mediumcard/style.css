@@ -4,7 +4,7 @@
   border-radius: 5px;
   max-width: 900px;
   min-width: 900px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+  box-shadow: 0px 2px 34px 10px rgba(0,0,0,0.5);
   background-color: white;
 }
 
@@ -25,7 +25,6 @@
   margin: 0;
   margin-top: 16px;
   line-height: 1.12;
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
 
 .medium-card .description { 
@@ -39,7 +38,6 @@
   font-weight: 400;
   margin: 0;
   margin-top: 16px;
-  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .medium-card .icon {
@@ -55,10 +53,8 @@
 }
 
 .medium-card .writer {
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
   text-align: left ;
   font-size: 24px;
-  margin-bottom: -4px;
   padding: 0;
 }
 
@@ -72,5 +68,4 @@
   font-size: 20px;
   margin: 0;
   color: rgba(0, 0, 0, 0.54);
-  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
